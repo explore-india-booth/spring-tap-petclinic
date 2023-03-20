@@ -5,7 +5,8 @@ metadata:
   labels:
     apps.kubernetes.io/name: spring-petclinic
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: petclinic-server
+    app.kubernetes.io/part-of: spring-petclinic
+    apps.tanzu.vmware.com/has-tests: "true"
 spec:
   source:
     git:
