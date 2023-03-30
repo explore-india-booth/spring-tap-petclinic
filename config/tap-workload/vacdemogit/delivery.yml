@@ -53,7 +53,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: exploreindiatapsolreg.azurecr.io/tap142/build-service/vacdemogit-tap-workload@sha256:409dd0d877d416dc2f96198533301f88d358d51f9b7eea38864299c79bae51f8
+        image: exploreindiatapsolreg.azurecr.io/tap142/build-service/vacdemogit-tap-workload@sha256:fe54761c5780cf0008dcf0663dc96e1d7f6ef56142ce82cbc2732b493ddc1844
         livenessProbe:
           httpGet:
             path: /livez
