@@ -8,6 +8,9 @@ metadata:
     app.kubernetes.io/part-of: spring-petclinic
     apps.tanzu.vmware.com/has-tests: "true"
 spec:
+  params:
+  - name: live-update
+    value: "true"
   source:
     git:
       url: https://github.com/explore-india-booth/spring-tap-petclinic
