@@ -16,12 +16,12 @@ spec:
       url: https://github.com/explore-india-booth/spring-tap-petclinic
       ref:
         branch: accelerator
-#  serviceClaims:
-#    - name: spring-petclinic-db
-#      ref:
-#        apiVersion: v1
-#        kind: Secret
-#        name: spring-petclinic-db
+  serviceClaims:
+    - name: spring-petclinic-db
+      ref:
+        apiVersion: v1
+        kind: Secret
+        name: spring-petclinic-db
   env:
   - name: SPRING_PROFILES_ACTIVE
     value: mysql
