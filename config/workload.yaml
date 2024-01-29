@@ -1,7 +1,7 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: vacdemogit
+  name: spring-app
   labels:
     apps.kubernetes.io/name: spring-petclinic
     apps.tanzu.vmware.com/workload-type: web
